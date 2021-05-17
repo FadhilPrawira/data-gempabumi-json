@@ -1,4 +1,4 @@
-# data-gempabumi-json
+# Data Gempa Bumi JSON
 Konversi tipe data gempa bumi BMKG dari XML ke JSON
 
 Sumber data dari https://data.bmkg.go.id/gempabumi 
