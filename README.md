@@ -9,7 +9,7 @@ Berikut ini kode Python 3 untuk mengolah data XML dan data JSON
 3. Daftar 15 Gempabumi M 5.0+ (`gempaterkini.py`)
 4. Daftar 15 Gempabumi Dirasakan (`gempadirasakan.py`)
 
-Parameter (key)
+## Parameter (key)
 * Tanggal dan Jam dalam WIB
 * DateTime sesuai ISO 8601 dalam UTC (+00:00)
 * Magnitude atau magnitudo merupakan kekuatan gempa
