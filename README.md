@@ -25,3 +25,25 @@ import IPython
 IPython.display.Image(mapURL)
 
 ```
+### Kode Baris Python 3 untuk Mengolah Data `gempaterkini.py` dari JSON `function.py`
+```python
+import function
+import json
+result = json.loads(function.gempaterkini())
+for x in result:
+    for y in result[x]:
+        print("{:<15} : ".format(y) + result[x][y])
+    print("\n")
+
+```
+### Kode Baris Python 3 untuk Mengolah Data `gempadirasakan.py` dari JSON `function.py`
+```python
+import function
+import json
+result = json.loads(function.gempadirasakan())
+for x in result:
+    for y in result[x]:
+        print("{:<15} : ".format(y) + result[x][y])
+    print("\n")
+
+```
