@@ -9,6 +9,18 @@ Berikut ini kode Python 3 untuk mengolah data XML dan data JSON
 3. Daftar 15 Gempabumi M 5.0+ (`gempaterkini.py`)
 4. Daftar 15 Gempabumi Dirasakan (`gempadirasakan.py`)
 
+Parameter (key)
+* Tanggal dan Jam dalam WIB
+* DateTime sesuai ISO 8601 dalam UTC (+00:00)
+* Magnitude atau magnitudo merupakan kekuatan gempa
+* Kedalaman dalam kilometer (km)
+* Koordinat Lintang dan Bujur
+* Susunan key coordinates adalah latitude kemudian longitude
+* Wilayah terdekat dengan lokasi episenter gempabumi
+* Potensi tsunami atau tidak, dan status gempa dirasakan
+* Dirasakan merupakan wilayah yang merasakan gempa dalam skala MMI
+* Gambar Shakemap (peta guncangan) diawali dengan URL https://data.bmkg.go.id/DataMKG/TEWS/
+
 ### Kode Baris Python 3 untuk Mengolah Data `autogempa.py` dari JSON `function.py`
 ```python
 import function
