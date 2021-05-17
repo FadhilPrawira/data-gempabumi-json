@@ -1,4 +1,4 @@
-import function
+import function #impor file function.py
 import json
 result = json.loads(function.autogempa())
 mapURL = result["Shakemap"]
