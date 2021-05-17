@@ -21,7 +21,7 @@ Berikut ini kode Python 3 untuk mengolah data XML dan data JSON
 * Dirasakan merupakan wilayah yang merasakan gempa dalam skala MMI
 * Gambar Shakemap (peta guncangan) diawali dengan URL https://data.bmkg.go.id/DataMKG/TEWS/
 
-### Kode Baris Python 3 untuk Mengolah Data `autogempa.py` dari JSON `function.py`
+### Kode Baris Python 3 `autogempa.py` untuk Mengolah Data dari JSON `function.py`
 ```python
 import function
 import json
@@ -37,7 +37,7 @@ import IPython
 IPython.display.Image(mapURL)
 
 ```
-### Kode Baris Python 3 untuk Mengolah Data `gempaterkini.py` dari JSON `function.py`
+### Kode Baris Python 3 `gempaterkini.py` untuk Mengolah Data dari JSON `function.py`
 ```python
 import function
 import json
@@ -48,7 +48,7 @@ for x in result:
     print("\n")
 
 ```
-### Kode Baris Python 3 untuk Mengolah Data `gempadirasakan.py` dari JSON `function.py`
+### Kode Baris Python 3 `gempadirasakan.py` untuk Mengolah Data dari JSON `function.py`
 ```python
 import function
 import json
